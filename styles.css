@@ -165,7 +165,6 @@ nav {
 }
 
 .eyebrow-region::before {
-    content: "";
     width: 26px;
     height: 1px;
     background: var(--gold-soft);
@@ -339,12 +338,12 @@ nav {
 
 /* SECTION GENERIC */
 section {
-    padding: 100px 0;
+    padding: 64px 0;
 }
 
 .section-head {
-    max-width: 640px;
-    margin-bottom: 56px;
+    max-width: 980px;
+    margin-bottom: 32px;
 }
 
 .section-head .kicker {
@@ -364,7 +363,7 @@ section {
     color: var(--ink-soft);
     margin-top: 16px;
     font-size: 1.05rem;
-    max-width: 52ch;
+    max-width: 980px;
 }
 
 /* FEATURES */
@@ -517,7 +516,7 @@ section {
 .join p {
     color: rgba(244, 238, 220, 0.75);
     max-width: 50ch;
-    margin: 18px auto 40px;
+    margin: 18px auto 18px;
     font-size: 1.05rem;
 }
 
@@ -545,7 +544,6 @@ section {
     border: none;
     padding: 16px 24px;
     cursor: pointer;
-    font-size: 0.95rem;
 }
 
 .join-box button:hover {
