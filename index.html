@@ -42,12 +42,12 @@
 	<header class="hero" id="top">
 		<div class="wrap container-fluid hero-content">
 			<h1>Atrapa, entrena,<br>y comercia<br>en <em>Veridea.</em></h1>
-			<p class="lede">Server de Cobblemon hecho con amor y dedicación.<br>Con un mercado global para comprar y vender Pokémon entre jugadores usando Create:Numismatics, pensado para jugarse en comunidad.</p>
+			<p class="lede">Server de Cobblemon hecho con amor y dedicación.<br>Con un mercado global para comprar y vender Pokémon entre jugadores usando Create: Numismatics, pensado para jugarse en comunidad.</p>
 			<div class="hero-actions d-flex flex-wrap align-items-center gap-3">
 				<a class="btn-primary btn" href="#unirse">Conectarme al servidor</a>
 				<a class="btn-ghost btn" href="#caracteristicas">Ver más</a>
 			</div>
-			<div class="server-ip">69.41.184.19:25599 <span style="opacity:0.5">· Java 1.21.1</span></div>
+			<div class="server-ip">69.41.184.19:25599 · Java 1.21.1</span></div>
 		</div>
 	</header>
 	
@@ -60,7 +60,7 @@
 					<br>
 					Una vista rápida de lo que te espera al conectarte: plazas, pueblos, tiendas, y rincones pensados para explorar.
 					<br>
-					<span style="opacity:0.75; font-size: 85%;"><i>¿Quién sabe qué más esconde la ciudad de Veridea?</i></span>
+					<span class="transparent-text"><i>¿Quién sabe qué más esconde la ciudad de Veridea?</i></span>
 				</p>
 			</div>
 			<div class="gallery-grid">
@@ -168,7 +168,7 @@
 			</p>
 			<div class="join-box d-inline-flex align-items-center">
 				<span class="ip" id="server-ip-text">69.41.184.19:25599</span>
-				<button class="btn" onclick="const t=document.getElementById('server-ip-text').innerText; navigator.clipboard.writeText(t); const b=event.target; const old=b.innerText; b.innerText='Copiado'; setTimeout(()=>b.innerText=old,1500);">
+				<button class="btn" id="btn-copy-ip">
 					<b>Copiar IP</b>
 				</button>
 			</div>
@@ -188,5 +188,6 @@
 	</footer>
 	
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>

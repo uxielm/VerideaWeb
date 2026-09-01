@@ -277,6 +277,11 @@ section {
     max-width: 980px;
 }
 
+.transparent-text {
+    opacity: 0.75;
+    font-size: 85%;
+}
+
 /* FEATURES */
 .features {
     background: var(--pine-deep);
@@ -285,10 +290,6 @@ section {
 
 .features .section-head h2 {
     color: var(--parchment);
-}
-
-.features .section-head .kicker {
-    color: var(--gold-soft);
 }
 
 .features .section-head p {
@@ -457,6 +458,10 @@ footer {
 
 .footer-inner .brand {
     color: var(--parchment);
+}
+
+.footer-links {
+    margin: 0;
 }
 
 .footer-links a {
