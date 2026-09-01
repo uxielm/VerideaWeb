@@ -7,14 +7,16 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	
 	<title>Veridea</title>
-	<link rel="icon" href="/images/favicon.png">
+	<link rel="icon" href="images/favicon.png">
 	<meta property="og:site_name" content="Página web de Veridea">
 	<meta property="og:title" content="Veridea">
 	<meta property="og:description" content="Server de Cobblemon hecho con amor y dedicación.">
-	<meta property="og:image" content="/images/favicon.png">
+	<meta property="og:image" content="images/favicon.png">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="styles.css">
+
 	<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,9 +26,13 @@
 			<a class="brand" href="#top"><span class="dot"></span>Veridea</a>
 			<ul class="nav-links">
 				<li><a href="#galeria">Galería</a></li>
-				<li><a href="#caracteristicas">El servidor</a></li>
+				<li><a href="#caracteristicas">Características</a></li>
 				<li><a href="#mercado">Mercado</a></li>
-				<li><a href="https://www.curseforge.com/minecraft/modpacks/cobblemonveridea" target="_blank" rel="noopener">Modpack</a></li>
+				<li>
+					<a href="https://www.curseforge.com/minecraft/modpacks/cobblemonveridea" target="_blank" rel="noopener">
+						Modpack <i class="bi bi-box-arrow-up-right"></i>
+					</a>
+				</li>
 				<li><a href="#unirse">Cómo unirse</a></li>
 			</ul>
 			<a class="nav-cta" href="#unirse">Jugar ahora</a>
@@ -166,7 +172,9 @@
 			</p>
 			<div class="join-box">
 				<span class="ip" id="server-ip-text">69.41.184.19:25599</span>
-				<button onclick="const t=document.getElementById('server-ip-text').innerText; navigator.clipboard.writeText(t); const b=event.target; const old=b.innerText; b.innerText='Copiado'; setTimeout(()=>b.innerText=old,1500);">Copiar IP</button>
+				<button onclick="const t=document.getElementById('server-ip-text').innerText; navigator.clipboard.writeText(t); const b=event.target; const old=b.innerText; b.innerText='Copiado'; setTimeout(()=>b.innerText=old,1500);">
+					<b>Copiar IP</b>
+				</button>
 			</div>
 			<div class="join-meta">Sin whitelist · Vanilla + Cobblemon + mercado global</div>
 		</div>

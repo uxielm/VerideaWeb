@@ -537,8 +537,6 @@ section {
 }
 
 .join-box button {
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 700;
     background: var(--gold);
     color: var(--pine-deep);
     border: none;
