@@ -22,9 +22,9 @@
 <body>
 	
 	<nav>
-		<div class="nav-inner">
+		<div class="nav-inner container-fluid wrap d-flex align-items-center justify-content-between">
 			<a class="brand" href="#top"><span class="dot"></span>Veridea</a>
-			<ul class="nav-links">
+			<ul class="nav-links d-flex align-items-center list-unstyled">
 				<li><a href="#galeria">Galería</a></li>
 				<li><a href="#caracteristicas">Características</a></li>
 				<li><a href="#mercado">Mercado</a></li>
@@ -35,24 +35,24 @@
 				</li>
 				<li><a href="#unirse">Cómo unirse</a></li>
 			</ul>
-			<a class="nav-cta" href="#unirse">Jugar ahora</a>
+			<a class="nav-cta btn" href="#unirse">Jugar ahora</a>
 		</div>
 	</nav>
 	
 	<header class="hero" id="top">
-		<div class="wrap hero-content">
+		<div class="wrap container-fluid hero-content">
 			<h1>Atrapa, entrena,<br>y comercia<br>en <em>Veridea.</em></h1>
 			<p class="lede">Server de Cobblemon hecho con amor y dedicación.<br>Con un mercado global para comprar y vender Pokémon entre jugadores, pensado para jugarse en comunidad.</p>
-			<div class="hero-actions">
-				<a class="btn-primary" href="#unirse">Conectarme al servidor</a>
-				<a class="btn-ghost" href="#caracteristicas">Ver más</a>
+			<div class="hero-actions d-flex flex-wrap align-items-center gap-3">
+				<a class="btn-primary btn" href="#unirse">Conectarme al servidor</a>
+				<a class="btn-ghost btn" href="#caracteristicas">Ver más</a>
 			</div>
 			<div class="server-ip">69.41.184.19:25599 <span style="opacity:0.5">· Java 1.21.1</span></div>
 		</div>
 	</header>
 	
 	<section class="gallery" id="galeria">
-		<div class="wrap">
+		<div class="wrap container-fluid">
 			<div class="section-head">
 				<h2>Ciudad Principal</h2>
 				<p>
@@ -87,60 +87,67 @@
 	</section>
 	
 	<section class="features" id="caracteristicas">
-		<div class="wrap">
+		<div class="wrap container-fluid">
 			<div class="section-head">
 				<h2>Captura, entrena y comercia.</h2>
 				<p>Veridea corre sobre Cobblemon, y le sumamos un par de cosas propias para darle su identidad al server.</p>
 			</div>
 			<div class="feature-grid">
 				<div class="feature">
-					<span class="num">01</span>
 					<h3>Cobblemon</h3>
 					<p>Captura, combate y entrena con todo lo que trae Cobblemon, configurado para una mejor experiencia.</p>
 				</div>
 				<div class="feature">
-					<span class="num">02</span>
 					<h3>Mercado Global</h3>
 					<p>Pon a la venta Pokémon de tu equipo a precio fijo y aparecerán en la estación de intercambio para todo el server.</p>
+				</div>
+				<div class="feature">
+					<h3>Mods y Mobs Custom</h3>
+					<p>Nuevos items, bloques, y criaturas Cobblemon, hechas por nosotros, para su uso en el server.</p>
+				</div>
+				<div class="feature">
+					<h3>Mods de Variedad</h3>
+					<p>Para mitigar la monotonía, también contamos con otros mods de variedad, incluyendo Create: Aeronautics.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	
 	<section class="market" id="mercado">
-		<div class="wrap market-grid">
+		<div class="wrap container-fluid market-grid">
 			<div>
-				<span class="kicker" style="color:var(--moss); font-weight:600; font-size:0.95rem;">Estación de intercambio</span>
-				<h2 style="font-size:clamp(2rem,3.6vw,2.7rem); line-height:1.1; margin-top:10px;">Vende y compra sin salir de tu partida.</h2>
-				<p style="color:var(--ink-soft); margin-top:16px; font-size:1.05rem;">La estación global de Veridea deja publicar Pokémon de tu equipo a un precio fijo, visible para todo el servidor al instante.</p>
-				<ul>
+				<div class="section-head">
+					<h2>Compra y Venta global</h2>
+					<p>La estación global deja publicar Pokémon de tu equipo a precio fijo, y aparece al instante para todo el server.</p>
+				</div>
+				<ul class="list-unstyled">
 					<li>Publicación directa desde tu equipo activo</li>
 					<li>Precio fijo, sin subastas ni pujas</li>
 				</ul>
 			</div>
 			<div class="market-card">
-				<div class="listing">
+				<div class="listing d-flex justify-content-between align-items-center">
 					<div>
 						<div class="listing-name">Torterra · Nv. 62</div>
 						<div class="listing-meta">Naturaleza Firme · IVs altos</div>
 					</div>
 					<div class="listing-price">2.400 ₽</div>
 				</div>
-				<div class="listing">
+				<div class="listing d-flex justify-content-between align-items-center">
 					<div>
-						<div class="listing-name">Milotic · Nv. 58</div>
-						<div class="listing-meta">Brillante · Naturaleza Modesta</div>
+						<div class="listing-name">Solrock · Nv. 58</div>
+						<div class="listing-meta">Shiny · Naturaleza Alegre</div>
 					</div>
 					<div class="listing-price">6.100 ₽</div>
 				</div>
-				<div class="listing">
+				<div class="listing d-flex justify-content-between align-items-center">
 					<div>
 						<div class="listing-name">Lucario · Nv. 71</div>
 						<div class="listing-meta">Habilidad oculta</div>
 					</div>
 					<div class="listing-price">3.850 ₽</div>
 				</div>
-				<div class="listing">
+				<div class="listing d-flex justify-content-between align-items-center">
 					<div>
 						<div class="listing-name">Growlithe · Nv. 24</div>
 						<div class="listing-meta">Nivel bajo · ideal para iniciar</div>
@@ -152,16 +159,16 @@
 	</section>
 	
 	<section class="join" id="unirse">
-		<div class="wrap">
+		<div class="wrap container-fluid">
 			<h2>Entra a Veridea hoy.</h2>
 			<p>
 				Minecraft Java Edition - 1.21.1
 				<br>
 				Copia la dirección IP y agrégala a tu lista de servers.
 			</p>
-			<div class="join-box">
+			<div class="join-box d-inline-flex align-items-center">
 				<span class="ip" id="server-ip-text">69.41.184.19:25599</span>
-				<button onclick="const t=document.getElementById('server-ip-text').innerText; navigator.clipboard.writeText(t); const b=event.target; const old=b.innerText; b.innerText='Copiado'; setTimeout(()=>b.innerText=old,1500);">
+				<button class="btn" onclick="const t=document.getElementById('server-ip-text').innerText; navigator.clipboard.writeText(t); const b=event.target; const old=b.innerText; b.innerText='Copiado'; setTimeout(()=>b.innerText=old,1500);">
 					<b>Copiar IP</b>
 				</button>
 			</div>
@@ -170,9 +177,9 @@
 	</section>
 	
 	<footer>
-		<div class="wrap footer-inner">
+		<div class="wrap container-fluid footer-inner d-flex justify-content-between align-items-center flex-wrap gap-3">
 			<a class="brand" href="#top"><span class="dot"></span>Veridea</a>
-			<ul class="footer-links">
+			<ul class="footer-links d-flex list-unstyled gap-4">
 				<li><a href="#mercado">Mercado</a></li>
 				<li><a href="https://www.curseforge.com/minecraft/modpacks/cobblemonveridea" target="_blank" rel="noopener">Modpack</a></li>
 				<li><a href="#unirse">Cómo unirse</a></li>
